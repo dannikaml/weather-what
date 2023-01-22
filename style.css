@@ -39,6 +39,7 @@ h2 {
 .search-aside {
     flex: 0 0 25%;
     max-width: 25%;
+    padding: 0px 15px 16px;
  
 }
 
@@ -48,7 +49,17 @@ form {
 }
 
 .form-block {
+    
 
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 18px;
+    border: 1px solid #181717;
+    
 }
 
 button {
@@ -57,10 +68,11 @@ button {
 
 .searchBtn {
     color: rgb(73, 69, 69);
-    padding: 2.5px 15px;
+    padding: 10px;
     display: inline-block;
     font-size: 16px;
     margin-top: 30px;
+    width: 100%;
   
   }
   
