@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to left, #34bcaa, #163999);
+    display: flex; 
+    margin: 0%;
+    font: white;
+
+}
+
+h1 {
+    font-size: 300%;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    margin-left: 485px;
+
+}
+
+h2 {
+    font-size: 185%;
+    font-family: monospace;
+
+}
+
+.container {
+  
+}
+
+.container-meat {
+
+}
+
+.search-aside {
+    flex: 0 0 25%;
+    max-width: 25%;
+ 
+}
+
+form {
+ display: block;
+
+}
+
+.form-block {
+
+}
+
+button {
+
+}
+
+.searchBtn {
+    color: rgb(73, 69, 69);
+    padding: 2.5px 15px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+  
+  }
+  
+  .btn:hover {
+    background-color:  rgb(155, 150, 150); 
+    color: white;
+  }
+
+
+
+/* background: rgb(27, 124, 92);
