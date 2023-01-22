@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-    font-size: 185%;
+    font-size: 200%;
     font-family: monospace;
 
 }
@@ -79,6 +79,12 @@ button {
   .btn:hover {
     background-color:  rgb(155, 150, 150); 
     color: white;
+  }
+
+  hr.rounded {
+    margin-top: 10%;
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
   }
 
 
