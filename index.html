@@ -17,10 +17,10 @@
      <div class="search-aside"> 
        <aside class="form"> </aside>
          <h2>Search for a City:</h2>
-         <form class="form-block" id="">     
+         <form class="form-block" id="search">     
              <input
                 type="text"
-                id=""
+                id="City"
                 placeholder="Fallbrook"
                 aria-labelledby="form-heading"
                 aria-controls="today forecast"
@@ -29,26 +29,35 @@
              <button class="btn searchBtn">Search</button>
              <hr class="rounded">
          </form>
+         <div class="history-display" id="history"></div>
         </aside>
-     </div>
-
-     <div class="">
-        <section
-        id=""
-        class=""
-        role=""
-        aria-live="polite" >
-       </section>
-       <section
-       id=""
-       class=""
-       role=""
-       aria-live="polite" >
-       </section>
-     </div>
+     
+     
+     <div class="card" id="todayBlock" >
+        <div class="search-weather">
+            <h3 class="city">Weather in:</h3>
+            <div class="temp">F</div>
+            <div class="description">Cloudy</div>
+            <div class="humidity">humidity:</div>
+            <div class="wind">6mph</div>
+        
+         <section
+         id="today"
+         class="weather-block"
+         role="region"
+         aria-live="polite" >
+         </section>
+         <section
+         id="forecast"
+         class="weather-block"
+         role="region"
+         aria-live="polite" >
+         </section>
+        </div>
+      </div>
     </div>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script src="./script.js"></script>
  </body>
 </html>

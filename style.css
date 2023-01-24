@@ -39,7 +39,7 @@ h2 {
 .search-aside {
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 0px 15px 16px;
+    padding: 0px 10px 12px;
  
 }
 
@@ -85,6 +85,27 @@ button {
     margin-top: 10%;
     border-top: 8px solid #bbb;
     border-radius: 5px;
+  }
+
+  .history-display {
+
+  }
+
+  .card {
+   background: #bbb;
+   padding: 10%;
+   border-radius: 25px;
+   width: 100%;
+   max-width: 200px;
+   margin: 10%;
+   flex-direction: column;
+   flex: 0 0 75%;
+
+  }
+
+  .weather-block {
+
+
   }
 
 

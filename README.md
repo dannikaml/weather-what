@@ -14,3 +14,6 @@ Stackoverflow:
 
 w3schools:
 - https://www.w3schools.com/howto/howto_css_dividers.asp
+
+YouTube:
+- https://www.youtube.com/watch?v=WZNG8UomjSI
