@@ -28,10 +28,6 @@ h2 {
 
 }
 
-.container {
-  
-}
-
 .container-meat {
 
 }
@@ -91,6 +87,16 @@ button {
 
   }
 
+  .historyBtn {
+    color: rgb(73, 69, 69);
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 100%;
+
+  }
+
   .card {
    background: #bbb;
    padding: 10%;
@@ -103,8 +109,17 @@ button {
 
   }
 
-  .weather-block {
+  .today {
+    
 
+
+  }
+
+  .forecast-card {
+    position: relative;
+    width: 20%;
+    padding-right: 15px;
+    padding-left: 15px;
 
   }
 

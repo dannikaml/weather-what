@@ -47,4 +47,37 @@ var todayBlock = {
 document.querySelector(".searchBtn").addEventListener("click", function() {todayBlock.search();
      console.log("pandas")
 });
+  
+//To show most recent history at the top of history button list
+function searchHistory() {
+    searchHistoryList.innerHTML = '';
+   
+    //creating the button elemet of search history to click back into 
+    for ( var i = searchHistory.length - 1; i >= 0; i--) {
+        var searchBtn = document.createElement('button')
+        searchBtn.setAttribute('button');
+        searchBtn.setAttribute( 'today forecast');
+        searchBtn.classList.add('historyBtn');
 
+    searchBtn.setAttribute('button');
+    searchBtn.classList.add('historyBtn')
+
+   }
+
+}
+
+//update history in locat storage
+function displaySearchHistory(search) {
+
+    //no search, then return
+    if (searchHistory.indexOf(search) !== - 1) {
+        return;
+    }
+    
+    searchHistory.push(search);
+    
+    //setting local sotrage
+    localStorage.setItem('search-history', JSON.stringify(searchHistory));
+    searchHistory();
+
+}
