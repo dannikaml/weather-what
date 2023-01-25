@@ -1,8 +1,19 @@
 # weather-what
 
+## weather page
+***
+
+## Description 
+***
+A Page where you can search a city for the weather for the day and the forecast for the next five days. The searched cities save in local storage and create a button so you can go back to your search. 
+
+***
+### Usage
+To find the weather for a city and the forecast for the next five days. 
 
 
-
+###
+![Page Screenshot]()
 
 
 
